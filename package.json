@@ -1,0 +1,40 @@
+{
+  "name": "decorator-promise",
+  "version": "1.1.0",
+  "description": "A decorator (@promise) for promiseping class or methods with your custom code",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:test/testSettings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmartin81/decorator-promise.git"
+  },
+  "keywords": [
+    "ES2016",
+    "ES7",
+    "decorator",
+    "promise",
+    "surround",
+    "@promise"
+  ],
+  "author": "Christian Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmartin81/decorator-promise/issues"
+  },
+  "homepage": "https://github.com/cmartin81/decorator-promise",
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-mocha": "^2.1.2",
+    "lodash": "^3.10.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "decorator-wrap": "^1.1.0",
+    "q": "^1.4.1"
+  }
+}
