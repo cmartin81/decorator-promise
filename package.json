@@ -1,7 +1,7 @@
 {
   "name": "decorator-promise",
   "version": "1.1.0",
-  "description": "A decorator (@promise) for promiseping class or methods with your custom code",
+  "description": "A decorator (@promise) for creating promises from classmethods",
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha --compilers js:test/testSettings"
@@ -15,7 +15,6 @@
     "ES7",
     "decorator",
     "promise",
-    "surround",
     "@promise"
   ],
   "author": "Christian Martin",
@@ -25,6 +24,7 @@
   },
   "homepage": "https://github.com/cmartin81/decorator-promise",
   "devDependencies": {
+    "assert": "^1.3.0",
     "babel": "^5.6.14",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.1.0",
