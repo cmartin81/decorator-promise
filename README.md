@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/cmartin81/decorator-promise.svg)](https://travis-ci.org/cmartin81/decorator-promise)
+[![Build Status](https://travis-ci.org/cmartin81/decorator-promise.svg?branch=master)](https://travis-ci.org/cmartin81/decorator-promise)
 
 # decorator-promise
 A ES6 decorator for making methods of a class a promise.

@@ -1,6 +1,6 @@
 {
   "name": "decorator-promise",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "A decorator (@promise) for creating promises from classmethods",
   "main": "dist/index.js",
   "scripts": {
